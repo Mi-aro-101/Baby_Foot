@@ -23,11 +23,18 @@ namespace window
         public void Draw(Graphics g, Brush brush){
             g.FillEllipse(brush, X, Y, Lavany, Sakany);
         }
+        // responsible of every footballer move
+        public void MoveUp(){
+            Y -= 5;
+        }
+
+        public void MoveDown(){
+            Y += 5;
+        }
 
         // Getters & Setters
         public int X {get; set;}
         public int Y {get; set;}
         public int Lavany {get; set;}
-        public int Sakany {get; set;}
-    }
+        public int Sakany {get; set;}    }
 }
