@@ -1,0 +1,21 @@
+This is a little project I created
+Do not be intimitated by It's name, It is not really a babyfoot. Well obviously it is one but a ugly one
+It is not Like all good games but the main purpose of this was :
+    To learn how to use C# manually without an IDE like visual studio
+    To connect C# with a SQLite database and make it work along C# manually
+    Execute manually the program in command prompt
+
+Babyfoot is just a middle point I needed to reach to achieve those goals
+
+Speaking of the goals, they were successful ;-) 
+
+Requirements : 
+    All the requirements are in "Dependencies" folder where you can find : 
+        System.Data.SQLite.dll the "pilot" or I do not know how to call it that will be the connector of C# code to a SQLite database
+        sqlite3 that you will need to integrate in the environment variable in order to use it permanently in command prompt
+
+NB : If you want to use System.Data.SQLite.dll along with the script I provided, You must put in the root folder of you project
+        otherwise, you must change the script "Compiler.bat"
+    And as you can see, the script extension is ".bat" that means It only runs on Windows OS
+    You must have dotnet installed to compile your C# code and integrate csc to you environment variable or change the script
+
